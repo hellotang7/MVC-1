@@ -1,0 +1,20 @@
+#app4 .circle{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    border: 1px solid green;
+
+}
+
+@keyframes z {
+    0%{
+        background: yellow;
+    }
+    100%{
+        background: blue;
+    }
+}
+
+#app4 .active{
+    animation: z 1s infinite alternate linear ;
+}
